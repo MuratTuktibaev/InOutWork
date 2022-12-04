@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/teal_700"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--edit text field for adding name-->
+
+
+    <!--button for adding data-->
+    <EditText
+        android:id="@+id/idEdtName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:hint="Дата текущая" />
+
+    <Button
+        android:id="@+id/idBtnPost"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:text="Вход"
+        android:textAllCaps="false" />
+
+
+    <!--progress bar for loading -->
+    <ProgressBar
+        android:id="@+id/idLoadingPB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+
+    <!--button for adding data-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="266dp"
+        app:srcCompat="@drawable/in7" />
+
+    <Button
+        android:id="@+id/idBtnPost2"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_margin="2dp"
+        android:text="Выход"
+        android:textAllCaps="false" />
+
+    <!--button for adding data-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="266dp"
+        app:srcCompat="@drawable/out" />
+
+
+</LinearLayout>
