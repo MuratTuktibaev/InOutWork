@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Input Output Work</string>
     <string name="new_name">New name</string>
+    <string name="new_name2">New name2</string>
 </resources>
