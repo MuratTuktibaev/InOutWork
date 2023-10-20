@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // calling a method to post the data and passing our name and job.
-                postData("5001", "EUA-510518", GetDateAndTime.getText().toString(),"1","060540001442");
+                postData("5001", "EUA-517035", GetDateAndTime.getText().toString(),"1","060540001442");
                 Toast.makeText(MainActivity.this, "Вход сделан удачно", Toast.LENGTH_SHORT).show();
             }
         });
@@ -67,8 +67,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // calling a method to post the data and passing our name and job.
-                postData("5001", "EUA-510518",GetDateAndTime.getText().toString(),"2","060540001442");
-                Toast.makeText(MainActivity.this, "Выход сделан удачно нужно исправить", Toast.LENGTH_SHORT).show();
+                postData("5001", "EUA-517035",GetDateAndTime.getText().toString(),"2","060540001442");
+                Toast.makeText(MainActivity.this, "ВЫХОД сделан удачно", Toast.LENGTH_SHORT).show();
             }
         });
     }
