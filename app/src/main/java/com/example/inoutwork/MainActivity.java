@@ -27,6 +27,9 @@ public class MainActivity extends AppCompatActivity {
     private EditText GetDateAndTime;
     private Button postDataBtn, postDataBtn2;
     private ProgressBar loadingPB;
+    //----------test
+    private String test;
+    //----------test
 
     Calendar calendar;
     SimpleDateFormat simpleDateFormat;
